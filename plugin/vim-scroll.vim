@@ -5,7 +5,7 @@
 " created then when later cleared.  I tried <SID><Esc> but it didn't work!
 
 if !exists("g:AutoScrollSpeed")
-  let g:AutoScrollSpeed = 300
+  let g:AutoScrollSpeed = 500
 endif
 
 command! ScrollDown call <SID>StartScrolling("j","zz")
